@@ -12,6 +12,8 @@ let numdivision = firstnumber / secondnumber;
 
 /*PASSWORD GENERATOR*/
 
+let passwordgenerator = name + surname + favouritecolor + numdivision;
+
 document.getElementById("PasswordGenerator").addEventListener("click", function () {
     firstnumber = parseInt(firstnumber);
     secondnumber = parseInt(secondnumber);
@@ -25,12 +27,12 @@ document.getElementById("PasswordGenerator").addEventListener("click", function 
 /*PARTE CONSOLE*/
 
 let informations = `
->Informazioni Utente:
+--- Informazioni Utente ---
 Nome e Cognome: ${name} ${surname}
 Colore preferito: ${favouritecolor}
 Primo numero scelto: ${firstnumber}
 Secondo numero scelto: ${secondnumber}
-I due numeri scelti divisi: ${numdivision}
+Primo numero/Secondo numero: ${numdivision}
 Password Generata: ${passwordgenerator}
 `
 
