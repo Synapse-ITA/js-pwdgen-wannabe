@@ -15,11 +15,9 @@ let numdivision = firstnumber / secondnumber;
 document.getElementById("PasswordGenerator").addEventListener("click", function () {
     firstnumber = parseInt(firstnumber);
     secondnumber = parseInt(secondnumber);
-    let numdivision = firstnumber / secondnumber;
-
     let passwordgenerator = name + surname + favouritecolor + numdivision;
 
-    // Visualizza la password nella pagina
+    // PASSWORD VISUALIZZATA SULLA PAGINA
     document.getElementById("GeneratedPassword").innerHTML = `Password Generata: ${passwordgenerator}`;
 });
 
