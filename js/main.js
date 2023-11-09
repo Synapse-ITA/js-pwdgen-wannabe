@@ -17,7 +17,7 @@ let passwordgenerator = name + surname + favouritecolor + numdivision;
 document.getElementById("PasswordGenerator").addEventListener("click", function () {
     firstnumber = parseInt(firstnumber);
     secondnumber = parseInt(secondnumber);
-    let passwordgenerator = name + surname + favouritecolor + numdivision;
+    passwordgenerator = name + surname + favouritecolor + numdivision;
 
     // PASSWORD VISUALIZZATA SULLA PAGINA
     document.getElementById("GeneratedPassword").innerHTML = `Password Generata: ${passwordgenerator}`;
@@ -35,5 +35,6 @@ Secondo numero scelto: ${secondnumber}
 Primo numero/Secondo numero: ${numdivision}
 Password Generata: ${passwordgenerator}
 `
+
 
 console.log(informations);
